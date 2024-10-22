@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CiscoIPPhoneInput>
+  <Title>External Directory</Title>
+  <Prompt>Enter searchcriteria ...</Prompt>
+  <URL>http://italy-46fffe55.dir.ccint.loc/directory/list?name=SEPA4004E079015&amp;type=External&amp;page=0&amp;search=true</URL>
+  <SoftKeyItem>
+    <Name>Choose</Name>
+    <Position>1</Position>
+    <URL>SoftKey:Submit</URL>
+  </SoftKeyItem>
+  <SoftKeyItem>
+    <Name>&lt;&lt;</Name>
+    <Position>2</Position>
+    <URL>SoftKey:&lt;&lt;</URL>
+  </SoftKeyItem>
+  <SoftKeyItem>
+    <Name>Cancel</Name>
+    <Position>3</Position>
+    <URL>SoftKey:Cancel</URL>
+  </SoftKeyItem>
+  <InputItem>
+    <DisplayName>Number</DisplayName>
+    <QueryStringParam>sf_Number</QueryStringParam>
+    <InputFlags>T</InputFlags>
+  </InputItem>
+  <InputItem>
+    <DisplayName>Name</DisplayName>
+    <QueryStringParam>sf_LastName</QueryStringParam>
+    <InputFlags>A</InputFlags>
+  </InputItem>
+  <InputItem>
+    <DisplayName>Firstname</DisplayName>
+    <QueryStringParam>sf_FirstName</QueryStringParam>
+    <InputFlags>A</InputFlags>
+  </InputItem>
+</CiscoIPPhoneInput>
