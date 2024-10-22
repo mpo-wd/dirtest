@@ -4,10 +4,10 @@
   <Prompt>Please choose</Prompt>
   <MenuItem>
     <Name>Internal Directory</Name>
-    <URL>http://baikal-28aee5c8.dir.ccint.loc//search?name=SEP1859F5DAAC6D&amp;type=Internal</URL>
+    <URL>https://mpo-wd.github.io/dirtest/internal_search.xml</URL>
   </MenuItem>
   <MenuItem>
     <Name>External Directory</Name>
-    <URL>http://baikal-28aee5c8.dir.ccint.loc//search?name=SEP1859F5DAAC6D&amp;type=External</URL>
+    <URL>https://mpo-wd.github.io/dirtest/external_search.xml</URL>
   </MenuItem>
 </CiscoIPPhoneMenu>
